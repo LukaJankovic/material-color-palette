@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle material-color-picker",
+        "command": "material-color-picker:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "material-color-picker",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "material-color-picker:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
